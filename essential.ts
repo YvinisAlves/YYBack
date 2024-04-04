@@ -1,7 +1,8 @@
-function essential(win) {
-  const html = win.document.querySelector("html")
+function essential(win: Window) {
+  return "Nothing"
+  /* const html = win.document.querySelector("html")
   if (html) {
     html.remove?.()
   }
-  return "Foi"
+  return "Foi" */
 }
